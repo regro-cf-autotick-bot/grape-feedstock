@@ -1,5 +1,5 @@
 {% set name = "grape" %}
-{% set version = "0.2.3" %}
+{% set version = "0.2.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/grape-{{ version }}.tar.gz
-  sha256: cb594741fd0393d9e5a8861592019cba931513cd87ac408e660a4053cbccd010
+  sha256: 119ef66ea8486fae52a3e0a1b6658758e0723704805e9b069fccdfdeeab3692e
 
 build:
   noarch: python
